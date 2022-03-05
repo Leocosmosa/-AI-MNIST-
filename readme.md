@@ -8,8 +8,7 @@ MNIST是一个手写体数字的图片数据集，该数据集来由美国国家
 使用经典Lenet模型学习深度学习框架搭建，了解卷积层、激活层、池化层、全连接层的用法和意义，主要采用paddle.nn库完成模型。
 
 ## 3. 项目数据集
-选择（[经典MNIST数据集](https://aistudio.baidu.com/aistudio/datasetdetail/65)）数据集
-数据集地址：https://aistudio.baidu.com/aistudio/datasetdetail/65
+选择（[经典MNIST数据集](https://aistudio.baidu.com/aistudio/datasetdetail/65)）数据集，数据集地址：https://aistudio.baidu.com/aistudio/datasetdetail/65
 
 # 二、数据处理
 代码及运行效果参见[data_process.ipynb](./data_process.ipynb)
