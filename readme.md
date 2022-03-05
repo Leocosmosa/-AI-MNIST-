@@ -1,15 +1,18 @@
 # 一、项目介绍
 
-## 1. 选择（[经典MNIST数据集](https://aistudio.baidu.com/aistudio/datasetdetail/65)）数据集
-
-## 2. 项目背景/意义：
+## 1. 项目背景/意义：
 MNIST是一个手写体数字的图片数据集，该数据集来由美国国家标准与技术研究所（National Institute of Standards and Technology (NIST)）发起整理，一共统计了来自250个不同的人手写数字图片，其中50%是高中生，50%来自人口普查局的工作人员。   
 该数据集的收集目的是希望通过算法，实现对手写数字的识别。
 
-## 3. 项目拟使用的方法：
+## 2. 项目拟使用的方法：
 使用经典Lenet模型学习深度学习框架搭建，了解卷积层、激活层、池化层、全连接层的用法和意义，主要采用paddle.nn库完成模型。
 
-# 二、数据处理（代码及运行效果参见[data_process.ipynb](./data_process.ipynb)）
+## 3. 项目数据集
+选择（[经典MNIST数据集](https://aistudio.baidu.com/aistudio/datasetdetail/65)）数据集
+数据集地址：https://aistudio.baidu.com/aistudio/datasetdetail/65
+
+# 二、数据处理
+代码及运行效果参见[data_process.ipynb](./data_process.ipynb)
 
 ## 1. 数据集清洗与介绍：
 挂载MNIST数据集，gzip解压数据集，tree/ls命令查看目录结构
@@ -37,6 +40,6 @@ MNIST是一个手写体数字的图片数据集，该数据集来由美国国家
 
 aistudio链接：https://aistudio.baidu.com/aistudio/projectdetail/3529271
 
-github链接：
+github链接：https://github.com/Leocosmosa/-AI-MNIST-
 
-gitee链接：
+gitee链接：https://gitee.com/Leocosmosa/AI-MNIST
