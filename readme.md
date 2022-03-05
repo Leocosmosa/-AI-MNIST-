@@ -11,13 +11,17 @@ MNIST是一个手写体数字的图片数据集，该数据集来由美国国家
 
 # 二、数据处理（代码及运行效果参见[data_process.ipynb](./data_process.ipynb)）
 
-## 1. 数据集清洗与介绍：挂载MNIST数据集，gzip解压数据集，tree/ls命令查看目录结构
+## 1. 数据集清洗与介绍：
+挂载MNIST数据集，gzip解压数据集，tree/ls命令查看目录结构
 
-## 2. 数据集类的定义：自定义MyMNISTDataset类继承paddle.io.Dataset，并实现__init__, __getitem__，__len__方法，decode_idx3_ubyte和decode_idx1_ubyte方法分别完成图片和标签文件的解码，并返回numpy格式的图片数据和标签数据
+## 2. 数据集类的定义：
+自定义MyMNISTDataset类继承paddle.io.Dataset，并实现__init__, __getitem__，__len__方法，decode_idx3_ubyte和decode_idx1_ubyte方法分别完成图片和标签文件的解码，并返回numpy格式的图片数据和标签数据
 
-## 3. 数据集类的测试：通过MyMNISTDataset类构造训练集和测试集，分别获得样本数据和标签数据，测试get、len方法，并用dataloader封装后测试batch效果
+## 3. 数据集类的测试：
+通过MyMNISTDataset类构造训练集和测试集，分别获得样本数据和标签数据，测试get、len方法，并用dataloader封装后测试batch效果
 
-## 4. 图像/文本数据的统计分析：对训练集和测试集的第1个样本进行可视化展示，对训练集和测试集的全量样本，分别进行图片数据整体均值和方差计算
+## 4. 图像/文本数据的统计分析：
+对训练集和测试集的第1个样本进行可视化展示，对训练集和测试集的全量样本，分别进行图片数据整体均值和方差计算
 
 # 三、选择模型并完成训练
 
