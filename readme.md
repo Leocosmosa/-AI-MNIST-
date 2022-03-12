@@ -227,7 +227,7 @@ print("\n图片数据：", test_dataset.images[0])
 
 
 
-![png](output_8_1.png)
+![png](./output/output_8_1.png)
 
 
     
@@ -296,7 +296,7 @@ print("\n图片数据：", test_dataset.images[0])
 
 
 
-![png](output_8_3.png)
+![png](./output/output_8_3.png)
 
 
     
@@ -495,35 +495,35 @@ print('模型在测试集上准确率为：%.2f%%' % (acc_score * 100))
 
 
 
-![png](output_15_1.png)
+![png](./output/output_15_1.png)
 
 
     测试集第2个样本标签为:  2 	 预测值为： 2
 
 
 
-![png](output_15_3.png)
+![png](./output/output_15_3.png)
 
 
     测试集第3个样本标签为:  1 	 预测值为： 1
 
 
 
-![png](output_15_5.png)
+![png](./output/output_15_5.png)
 
 
     测试集第4个样本标签为:  0 	 预测值为： 0
 
 
 
-![png](output_15_7.png)
+![png](./output/output_15_7.png)
 
 
     测试集第5个样本标签为:  4 	 预测值为： 4
 
 
 
-![png](output_15_9.png)
+![png](./output/output_15_9.png)
 
 
     模型在测试集上准确率为：97.85%
